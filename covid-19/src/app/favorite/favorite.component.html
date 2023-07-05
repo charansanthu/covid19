@@ -1,0 +1,9 @@
+<app-userheadnav></app-userheadnav>
+<body>
+<div class="container">
+    <h1 class="reg"> Favorites </h1>
+  <app-countrylist *ngFor='let country of countries;' [Ccountry]='country' [favoritedata]='favoritedata' >
+  </app-countrylist>
+</div>
+</body>
+<app-userfootnav> </app-userfootnav>
